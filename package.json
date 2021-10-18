@@ -22,8 +22,10 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "dependencies": {
+    "byte-buffer": "^2.0.0",
     "koa-compose": "^4.1.0",
     "log4js": "^6.3.0",
+    "protobufjs": "^6.11.2",
     "uuid": "^8.3.2",
     "ws": "^8.2.3"
   }
