@@ -1,6 +1,0 @@
-package commander.c2s;
-syntax = "proto3";
-
-message gm_command {
-    repeated string commands = 1;
-}

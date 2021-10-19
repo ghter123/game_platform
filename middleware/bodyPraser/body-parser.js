@@ -17,6 +17,7 @@ module.exports = async (ctx, next) => {
     // eslint-disable-next-line no-underscore-dangle
     buffer = buffer.slice(buffer._index, buffer.byteLength);
     const pdata = packet.todata(buffer.toArray());
+    ctx.req.type = msgtype;
     ctx.req.body = pdata;
     buffer = null;
     ctx.isBinary = false;
